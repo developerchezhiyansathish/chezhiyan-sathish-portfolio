@@ -1,26 +1,169 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url("/images/Pointer.svg") 3 3, auto !important;
+  scroll-behavior: auto !important;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: auto !important;
+  overflow-x: hidden;
+}
+
+.main-banner {
+  background: url("/images/Developer-sathish-banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+
+.electro-banner {
+  background: url('/images/electro-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.om-muruga-banner{
+  background: url('/images/om-muruga-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.quick-blog-banner{
+  background: url('/images/quick-blog-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+
+
+.banner-arrow {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-arrow:hover {
+  cursor: pointer;
+  transform: rotate(45deg) !important;
+  transition: 0.6s ease-in-out !important;
+}
+
+.custom-scroll-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -0.09em;
+  color: #ffffff;
+  font-size: clamp(5rem, 10vw, 14rem);
+  white-space: nowrap;
+}
+
+.about-arrow {
+  transform: rotate(180deg);
+}
+
+.about-arrow:hover {
+  cursor: pointer;
+  transform: rotate(225deg) !important;
+  transition: 0.6s ease-in-out !important;
+}
+
+.count-up-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.h-line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tool-tip {
+  background-color: #808080;
+  opacity: 0;
+}
+.skill-img:hover .tool-tip {
+  opacity: 1 !important;
+  transition: 0.5 all ease-in-out !important;
+}
+
+.project-name:hover .project-arrow {
+  transform: rotate(45deg);
+  transition: 0.6s ease-in-out !important;
+}
+
+.project-arrow:hover {
+  transform: rotate(45deg);
+  transition: 0.6s ease-in-out !important;
+}
+.dot {
+  background-color: #000000;
+  font-size: 8;
+  border-radius: 50%;
+}
+.pr-img:hover .pr-img img {
+  transform: scale(1.1);
+}
+
+.sp-gt {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sp-gt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0;
+  border-radius: 100%;
+  z-index: -1;
+  transform: translate(-180px, -180px) scale(0.8);
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.sp-gt:hover::after {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+@media (max-width: 768px) {
+  .banner-arrow {
+    width: 40px;
+    left: 80%;
+    top: 40%;
+  }
+  .count-up-text {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
