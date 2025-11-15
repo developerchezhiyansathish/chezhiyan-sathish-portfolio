@@ -121,15 +121,16 @@ const Banner = () => {
         </motion.div>
       </div>
       {/* Center Section with Scrolling Text End */}
-
-      <motion.img
-        src="/images/Icon.svg"
-        alt="resume"
-        initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
-        animate={{ opacity: 1, scale: 1, rotate: 0 }}
-        transition={{ duration: 1.4, ease: "easeOut", delay: 0.5 }}
-        className="banner-arrow mt-10 opacity-70 transition-opacity duration-300"
-      />
+      <a href="/images/Sathish-MERN-Developer.pdf" download>
+        <motion.img
+          src="/images/Icon.svg"
+          alt="resume"
+          initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ duration: 1.4, ease: "easeOut", delay: 0.5 }}
+          className="banner-arrow mt-10 opacity-70 transition-opacity duration-300"
+        />
+      </a>
 
       {/* Dock Menu */}
       <Dock

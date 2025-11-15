@@ -67,7 +67,7 @@ const Banner = () => {
   return (
     <main
       ref={scrollContainerRef}
-      className="w-full min-h-screen flex flex-col justify-between bg-[#0A0A0A] text-white relative overflow-hidden max-sm:h-[500px] max-sm:min-h-[500px]"
+      className="w-full  h-screen flex flex-col justify-between bg-[#0A0A0A] text-white relative overflow-hidden max-sm:h-[500px] max-sm:min-h-[500px]"
     >
       {/* Top Section */}
       <div className="flex flex-col sm:flex-row items-start justify-between pt-8 gap-6 px-8 max-sm:px-3 max-sm:flex-row">
@@ -113,7 +113,7 @@ const Banner = () => {
           </h2>
         </motion.div>
       </div>
-
+     <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-auto">
       <Dock
         items={items}
         panelHeight={58}
@@ -121,13 +121,16 @@ const Banner = () => {
         magnification={70}
         className="max-sm:fixed max-sm:bottom-4 max-sm:bg-black max-sm:z-50"
       />
+      </div>
+      <div className="h-16 w-full">
 
+      </div>
       {/* Bottom Time */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-8 right-10 flex flex-row items-center gap-4"
+        className="absolute bottom-8 right-10 flex flex-row items-center gap-4 max-sm:hidden"
       >
         <p className="text-lg sm:text-xl tracking-wide font-light max-sm:text-[#ececec]">
           {time}
