@@ -1,58 +1,78 @@
-🧑‍💻 Sathish G P – Personal Portfolio (Next.js)
+# 🧑‍💻 Sathish G P – Personal Portfolio (Next.js)
 
-A modern, high-performance Portfolio Website built using Next.js App Router, Framer Motion, and Tailwind CSS.
-This portfolio showcases my expertise as a MERN Stack & Next.js Developer, along with real-world case studies, full-stack projects, skills, and professional experience.
+A modern, high-performance Personal Portfolio Website built using Next.js App Router, Tailwind CSS, Framer Motion, and TypeScript.
+This portfolio showcases my expertise as a Full Stack Developer (MERN & Next.js), featuring real-world projects, case studies, experience timeline, testimonials, and more — all wrapped in a clean, responsive UI.
 
-🚀 Tech Stack
+# 🚀 Features
+# ⭐ Core Highlights
 
-Frontend
+Fully responsive & modern UI
 
-Next.js 14 (App Router)
+Smooth scroll animations with Framer Motion
 
-React 19
-
-Tailwind CSS
-
-Framer Motion
-
-Lenis Smooth Scroll
-
-TypeScript
-
-React Icons
-
-Features
+Built entirely using Next.js App Router
 
 SEO-optimized using Next.js Metadata API
 
-Fully Responsive UI
+Dynamic project pages with sliders
 
-Smooth Animations
+Fast-loading with image optimization
 
-Reusable components
+Clean component-based architecture
 
-Dynamic Project Pages
+Fully mobile-friendly
 
-Clean Layout & Navigation
+Integrated case studies & client testimonials
 
-Fast Vercel Deployment
+# 🛠 Tech Stack
 
-📌 Sections Included
+# Frontend
 
-🏠 Homepage
+⚛️ Next.js 14 (App Router)
+
+⚡ React 19
+
+🎨 Tailwind CSS
+
+🎞 Framer Motion
+
+🌀 Lenis Smooth Scroll
+
+🧩 TypeScript
+
+🔣 React Icons
+
+#  Additional Tools
+
+🧪 ESLint + Prettier
+
+🗂 Modular folder structure
+
+🚀 Deployed on Vercel
+
+# Sections Included
+
+🏠 Home
 
 👨‍💻 About Me
 
-💼 Experience
+💼 Experience Timeline
 
-🎨 Skills
+🎨 Skills Overview
 
-📂 Portfolio Projects
+📂 Project Case Studies
 
-📜 Case Studies
+🗃️ Portfolio Projects
 
-⭐ Testimonials
+⭐ Client Testimonials
 
 📞 Contact Section
 
-🔗 Footer with Contact Info
+🔗 Footer with Social Links
+
+# Installation & Setup
+
+git clone https://github.com/developerchezhiyansathish/chezhiyan-sathish-portfolio.git
+cd chezhiyan-sathish-portfolio
+npm install
+npm run dev

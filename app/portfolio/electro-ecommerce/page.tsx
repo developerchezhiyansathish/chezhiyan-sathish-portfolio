@@ -19,9 +19,9 @@ export const metadata = {
     "Online Store",
     "OTP Login eCommerce",
   ],
-  metadataBase: new URL("https://chezhiyansathish.dev"),
+  metadataBase: new URL("https://chezhiyansathish.vercel.app/"),
   alternates: {
-    canonical: "https://chezhiyansathish.dev/portfolio/electro-ecommerce",
+    canonical: "https://chezhiyansathish.vercel.app/portfolio/electro-ecommerce",
   },
 };
 

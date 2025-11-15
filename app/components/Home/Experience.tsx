@@ -49,8 +49,8 @@ const Experience = () => {
           viewport={{ once: true }}
           className="w-full flex flex-row items-start justify-center gap-16 max-sm:flex-col max-sm:gap-5"
         >
-          <div className="w-1/4">
-            <h3 className="text-black font-dmsans font-medium text-left text-4xl max-sm:text-3xl">
+          <div className="w-1/4 max-sm:w-full">
+            <h3 className="text-black font-dmsans font-medium text-left text-4xl max-sm:text-2xl">
              2024 – Present
             </h3>
           </div>
@@ -106,8 +106,8 @@ const Experience = () => {
           viewport={{ once: true }}
           className="w-full flex flex-row items-start justify-center gap-16 max-sm:flex-col max-sm:gap-5"
         >
-          <div className="w-1/4">
-            <h3 className="text-black font-dmsans font-medium text-left text-4xl max-sm:text-3xl">
+          <div className="w-1/4 max-sm:w-full">
+            <h3 className="text-black font-dmsans font-medium text-left text-4xl max-sm:text-2xl">
              2023 – 2024
             </h3>
           </div>

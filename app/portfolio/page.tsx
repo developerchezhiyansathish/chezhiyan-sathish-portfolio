@@ -20,11 +20,11 @@ export const metadata = {
   openGraph: {
     title: "Portfolio – Sathish G P",
     description: "Showcasing real-world MERN stack and Next.js projects.",
-    url: "https://chezhiyansathish.dev/portfolio",
+    url: "https://chezhiyansathish.vercel.app/portfolio",
     type: "website",
     images: [
       {
-        url: "https://chezhiyansathish.dev/portfolio.png",
+        url: "https://chezhiyansathish.vercel.app/portfolio.png",
         width: 1200,
         height: 630,
         alt: "Sathish Portfolio Projects",
@@ -32,7 +32,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://chezhiyansathish.dev/portfolio",
+    canonical: "https://chezhiyansathish.vercel.app/portfolio",
   },
 };
 

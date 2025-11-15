@@ -104,7 +104,7 @@ const Footer = () => {
         </motion.div>
       </main>
 
-      <div className="w-full bg-black py-24 px-8 max-sm:px-3 max-sm:py-10">
+      <div className="w-full bg-black py-24 px-8 max-sm:px-3 max-sm:pt-10 max-sm:pb-18">
         <h3 className="font-dmsans text-white font-extralight text-6xl text-left mb-8 max-sm:text-3xl">
           your friendly, trustworthy developer
         </h3>

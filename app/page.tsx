@@ -23,9 +23,9 @@ export const metadata = {
     "Freelance Developer",
     "Chennai Web Developer",
   ],
-  metadataBase: new URL("https://chezhiyansathish.dev"),
+  metadataBase: new URL("https://chezhiyansathish.vercel.app/"),
   alternates: {
-    canonical: "https://chezhiyansathish.dev",
+    canonical: "https://chezhiyansathish.vercel.app/",
   },
 };
 

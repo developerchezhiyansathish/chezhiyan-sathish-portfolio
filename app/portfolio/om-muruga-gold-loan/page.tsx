@@ -21,9 +21,9 @@ export const metadata = {
     "Financial Application",
     "Sathish G P Projects",
   ],
-  metadataBase: new URL("https://chezhiyansathish.dev"),
+  metadataBase: new URL("https://chezhiyansathish.vercel.app/"),
   alternates: {
-    canonical: "https://chezhiyansathish.dev/portfolio/om-muruga-gold-loan",
+    canonical: "https://chezhiyansathish.vercel.app/portfolio/om-muruga-gold-loan",
   },
 };
 

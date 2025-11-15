@@ -19,9 +19,9 @@ export const metadata = {
     "Node.js Blog API",
     "Sathish G P Projects",
   ],
-  metadataBase: new URL("https://chezhiyansathish.dev"),
+  metadataBase: new URL("https://chezhiyansathish.vercel.app/"),
   alternates: {
-    canonical: "https://chezhiyansathish.dev/portfolio/quick-drig-blog",
+    canonical: "https://chezhiyansathish.vercel.app/portfolio/quick-drig-blog",
   },
 };
 
