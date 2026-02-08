@@ -63,6 +63,12 @@ const Projects = () => {
       link: "https://drig.digital/",
     },
     {
+      src: "/images/zx-aero-website-banner.webp",
+      title: "ZX AeroSpace - Next.js",
+      alt: "ZX AeroSpace",
+      link: "https://www.zxaero.com/",
+    },
+    {
       src: "/images/fitrock-banner.webp",
       title: "Fitrock Arena - React",
       alt: "Fitrock Arena",
@@ -104,6 +110,36 @@ const Projects = () => {
       alt: "Sarakshi Netralaya",
       link: "https://sarakshinetralaya.com/",
     },
+    {
+      src: "/images/rkr-website.webp",
+      title: "RKR Engineering - PHP",
+      alt: "RKR",
+      link: "https://rkrengineering.in/",
+    },
+    {
+      src: "/images/dpurpose-website.webp",
+      title: "DPurpose Foundation - Wordpress",
+      alt: "DPurpose Foundation",
+      link: "https://dpurposefoundation.com/",
+    },
+    {
+      src: "/images/chef-mn-website.webp",
+      title: "Chef MN - Wordpress",
+      alt: "Chef MN",
+      link: "https://chefmn.in/",
+    },
+    {
+      src: "/images/brown-post-website.webp",
+      title: "Brown Post - Wordpress",
+      alt: "Brown Post",
+      link: "https://brownpost.in/",
+    },
+    {
+      src: "/images/classic-treats-website.webp",
+      title: "Classic Treats - Shopify",
+      alt: "Classic Treats",
+      link: "https://classictreats.in/",
+    },
   ];
 
   return (
@@ -133,7 +169,6 @@ const Projects = () => {
           viewport={{ once: true }}
           className="w-full flex flex-col gap-0 max-sm:gap-0"
         >
-         
           {Array.from({ length: Math.ceil(projects.length / 2) }, (_, i) => (
             <motion.div
               key={i}

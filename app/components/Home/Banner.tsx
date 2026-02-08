@@ -121,7 +121,7 @@ const Banner = () => {
         </motion.div>
       </div>
       {/* Center Section with Scrolling Text End */}
-      <a href="/images/Sathish-MERN-Developer.pdf" download>
+      <a href="/images/Sathish-MERN-Full-Stack-Developer.pdf" download>
         <motion.img
           src="/images/Icon.svg"
           alt="resume"

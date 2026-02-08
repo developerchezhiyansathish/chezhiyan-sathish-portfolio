@@ -51,7 +51,7 @@ const Experience = () => {
         >
           <div className="w-1/4 max-sm:w-full">
             <h3 className="text-black font-dmsans font-medium text-left text-4xl max-sm:text-2xl">
-             2024 – Present
+              2024 – Present
             </h3>
           </div>
           <div className="w-3/4 max-sm:w-full">
@@ -83,7 +83,15 @@ const Experience = () => {
               viewport={{ once: true }}
               className="text-black font-dmsans font-light text-left text-2xl pb-4 max-sm:text-base"
             >
-              Have taken sole accountability of developing, & deploying over 12+ customised, highly functional websites using diverse platforms like React.js, Next.js,  WordPress, HTML, and Shopify, serving a wide range of businesses from Health & Wellness, Engineering, F&B, Personal Branding, Technology and Entertainment. Further implemented dynamic web applications with the utilisation of the MERN stack, which assures the performance & scalability of it. Coordinated & collaborated with the internal UI/UX design teams to ensure the generation of highly quality and responsive websites.
+              Developed and deployed 20+ high-performance websites and web
+              applications using React.js, Next.js, WordPress, Shopify, and the
+              MERN stack. Optimized application performance, resolved production
+              issues, and ensured high availability and system reliability.
+              Implemented SEO best practices and worked closely with UI/UX teams
+              to deliver responsive, mobile-first solutions. Currently
+              developing real-time project management applications using the
+              MERN stack and Next.js-based eCommerce applications for both
+              in-house and client requirements.
             </motion.p>
           </div>
         </motion.div>
@@ -108,7 +116,7 @@ const Experience = () => {
         >
           <div className="w-1/4 max-sm:w-full">
             <h3 className="text-black font-dmsans font-medium text-left text-4xl max-sm:text-2xl">
-             2023 – 2024
+              2023 – 2024
             </h3>
           </div>
           <div className="w-3/4 max-sm:w-full">
@@ -140,7 +148,12 @@ const Experience = () => {
               viewport={{ once: true }}
               className="text-black font-dmsans font-light text-left text-2xl pb-4 max-sm:text-base"
             >
-              Over 1.5+ years of proven expertise in building client-specific, highly functional, responsive websites on different platforms like React JS, HTML, CSS, Next JS & WordPress. Further, implemented best practices of SEO to improve the website rankings on search engines. In addition, also made sure to double check periodically at regular intervals on regular maintenance & updating the websites. 
+              Developed and maintained 15+ responsive client websites using
+              React.js, Next.js, WordPress, HTML, and CSS. Delivered
+              performance-optimized, SEO-friendly, and accessible web
+              interfaces, handled ongoing maintenance and bug fixes, and
+              collaborated with designers and stakeholders to meet client
+              requirements.
             </motion.p>
           </div>
         </motion.div>

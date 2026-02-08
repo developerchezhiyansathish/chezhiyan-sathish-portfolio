@@ -27,7 +27,11 @@ const logos = [
   {
     src: "/images/mdees2.png",
     alt: "Mdees Furniture",
-  }
+  },
+  {
+    src: "/images/zx-logo.webp",
+    alt: "ZX Aerospace",
+  },
 ];
 const logos2 = [
   {

@@ -40,13 +40,13 @@ const AboutMe = () => {
             viewport={{ once: true }}
             className="font-dmsans text-left font-medium text-black text-4xl w-2/3 pr-8 max-sm:pr-0 max-sm:w-full max-sm:text-base max-sm:pt-4"
           >
-            I’m a well experienced Full Stack Web Developer with 3 years of
-            hands on experience specializing in the MERN Stack, React.js, and
-            Next.js. I build responsive, scalable, and user focused websites and
-            web applications with clean UI and optimized performance. With
-            strong experience across frontend, backend, and deployment
-            workflows, I’m passionate about creating modern digital products
-            that deliver real value.
+            Full-Stack Developer with 3+ years of hands-on experience
+            specializing in the MERN stack, React.js, and Next.js. Proven
+            expertise in building modern, scalable, responsive, and SEO-friendly
+            websites and web applications with optimized performance.
+            Experienced in end-to-end development, CI/CD deployment, and cloud
+            hosting. Passionate about clean code, modern UI/UX, and delivering
+            high-quality digital products.
           </motion.h4>
 
           <motion.div
@@ -69,7 +69,7 @@ const AboutMe = () => {
               className="flex flex-row justify-center items-center gap-3 max-sm:hidden"
             >
               <a
-                href="/images/Sathish-MERN-Developer.pdf"
+                href="/images/Sathish-MERN-Full-Stack-Developer.pdf"
                 download
                 className="font-dmsans text-black text-3xl font-medium max-sm:text-2xl"
               >
